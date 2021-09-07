@@ -1,0 +1,36 @@
+<%- include('components/headerProfile') %>
+<div class="container">
+  <div class="card">
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+        </div>
+        <div class="media-content">
+          <p class="title is-4"><%= profile.name %></p>
+          <p class="subtitle is-6"><%= profile.username %></p>
+        </div>
+      </div>
+    </div>
+    <% if(isRoot){ %>
+      <form action="/profile" method="POST">
+        <div>
+          <label>Name</label>
+          <input type="text" name="name" value="<%= user.name %>">
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="email" name="email" value="<%= user.email %>">
+        </div>
+        <% if(changeMessage.length > 0){ %>
+          <p><%= changeMessage %></p>
+        <% } %>
+        <input class="button is-light" value="Save Profile" type="submit">
+      </form>
+    <% } %>
+  </div>
+</div>
+
+<script async src="https://w.appzi.io/bootstrap/bundle.js?token=LwYdk"></script>
+
+
+<%- include('components/footer') %>
