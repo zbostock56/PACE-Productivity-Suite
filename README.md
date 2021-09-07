@@ -1,4 +1,4 @@
-# PACE is the next generation of productivity at the touch of your fingertips.
+# PACE is the next generation of productivity at the touch of your fingertips
 
 # Express Local Auth Template
 
@@ -88,7 +88,8 @@ The following components can be replaced with your favorite ones by making minim
 
 ## Authors
 
-- **Zack Bostock** - [godcrampy](https://github.com/zbostock56)
+- **Zack Bostock** - [Zack Bostock](https://github.com/zbostock56)
+- **Jack Saysana** - [Jack Saysana](https://github.com/Jack-Saysana)
 
 ## License
 
